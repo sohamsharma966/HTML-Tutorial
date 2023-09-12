@@ -36,8 +36,8 @@ if you change rename index.html to asdfasd.html > now you go to "http://127.0.0.
 4. there are two types of tags in html > 
 a. [Normal tags] which once open and then you have to close. tag ek vo container hota content jisme ya text hota ya html hota. tags having content in it are html elements and tags whch have no content are empty elements.
 *content can be more open and closing tags ya fir text*
-like= <body> tag has more tags and content.
-      <h1> tag only hhas content which is "this is heading"
+like= body tag has more tags and content.
+      h1 tag only hhas content which is "this is heading"
 b. [Empty tags] which you don't need to close.
 
 5. HTML document > browser > render the code(in viewable form). this process is also called parsing.
@@ -46,7 +46,7 @@ b. [Empty tags] which you don't need to close.
 
 7. We can use .htm or .html extension. disclaimer - if you used index.htm then server will not detect it.
 
-8. Tag is "<h1>" ya fir "</h1>".
+8. Tag is "h1" ya fir "/h1".
 
 9. Element is "<h1>Hello World</h1>". start tag + content + end tag.
 *content can be more open and closing tags ya fir text*
@@ -56,28 +56,28 @@ b. [Empty tags] which you don't need to close.
 ## Chapter 2
 
 1. We have seen example of HTML Elements.
-like <body>...</body> and <h1>...</h1>.
+like body.../body and h1.../h1.
 
 2. Now what is HTML Attributes? href, class, id etc.= sometime we need to supply more information with tags.
 when we use anchor tag in vscode by a. it automatically create html attributed. it will ask konse URL me leke jana hai click on text and go to url. 
 Attributes= href is attribute here and we can add more attribute like= class, id.
 
-3. What is anchor tag? <a href="">content</a>.
+3. What is anchor tag? '<a href="">content</a>'.
 anchor tag is used to add links to existing content inside an html page.
 
-This is Absolute url = <a href="https://codewithharry.com">click here to go to harry website</a>
-This is Relative url = <a href="/about.html">go to about</a>
+This is Absolute url = '<a href="https://codewithharry.com">click here to go to harry website</a>'.
+This is Relative url = '<a href="/about.html">go to about</a>'.
 
-4. What is image tags? <img src="" alt=""> it is empty tag because doesn't need closing tag.
+4. What is image tags? '<img src="" alt="">' it is empty tag because doesn't need closing tag.
 we use image tags to add images in html page and we use alt in it to show if image doesn't load.
 
 5. How to bold, italic, underline?
-<b>this is bold</b>
-<i>this is italic</i>
-<u>this is underline</u>
+"<b>this is bold</b>"
+"<i>this is italic</i>"
+"<u>this is underline</u>"
 
 6. Html ignores new lines and extra spaces in html code.
-a. to create new line we will use = <br> this is an empty tag.
+a. to create new line we will use = br > this is an empty tag.
 
 7. we can use big or small tags. used for big and small fonts.
 
@@ -91,44 +91,44 @@ then we will use pre tags.
 ## Chapter 3 (creating page layout of SEO friendly)
 
 1. Idely website esi hoti hai.
-<header>
-<main>
-<footer>
+{header
+main
+footer}
 why we using this format because robot will check in this format that hat is your main content.
 footer and header is not that much important but main part is important.
 
-2. In <header> we add nav tag.
+2. In header we add nav tag.
 
-3. In <main> we add 
-<section> = user ko jo particular part page ka dispay krana chahte ho.
-<article> = particular baat likhi hai page ki
-<aside> = vo ayega jo apke page ke content se hatke hai (like ads)
+3. In main we add 
+section = user ko jo particular part page ka dispay krana chahte ho.
+article = particular baat likhi hai page ki
+aside = vo ayega jo apke page ke content se hatke hai (like ads)
 
 4. what is div tag? it is used as container for other element.
 
 5. what is inline element and block element?
 inline element which take space which required and others can also take the free space.
 block elemnt which take whole space in that line.
-like= <p>,<div> are block elemnt / <span> is inline element.
+like= p,div are block elemnt / span is inline element.
 
 ## Chapter 4 (lists, tables and forms)
 
 1. lists are use to display content which represent in list.
-<ul> make unorder list.
-<ol> make order list
+ul =make unorder list.
+ol =make order list
 
 2. tables tag is use to define table in html.
-<caption> = what table is about.
-<tr> = table row
-<td> = table data
-<th> = table headers
+caption = what table is about.
+tr = table row
+td = table data
+th = table headers
 
-<thead> = it is used to wrap table head and caption.
+thead = it is used to wrap table head and caption.
 
 3. what is Html form? it is use to collect input from user.
-<form>
+form
 --element of form--
-</form>
+/form
 there are different form element for different kind of form element.
 input element= it can be type text, checkbox, radio, button, submit.
 texterea element= multi line text.
